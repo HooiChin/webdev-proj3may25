@@ -93,3 +93,40 @@ footer {
     text-align: center;
     margin: 5px;
 }
+
+/* Tablet Design */
+@media (max-width:768px) {
+   
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: auto auto;
+        gap: 20px;
+    }
+   
+}
+
+/* Mobile Design */
+@media (max-width:576px) {
+  
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-row: auto ;
+        gap: 5px;
+    }
+
+    #services {
+        padding: 5px 0px;
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: auto ;
+        gap: 15px;
+    }
+
+    
+   
+}
